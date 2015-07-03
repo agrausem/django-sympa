@@ -18,6 +18,9 @@ Django-sympa
 .. image:: https://img.shields.io/pypi/dm/django-sympa.svg
     :target: https://crate.io/packages/django-sympa/
 
+Add a route to exposed immediately your app users to sympa in right format. This
+will synchronize users to a configured mai list.
+
 Install
 =======
 
