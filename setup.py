@@ -45,4 +45,17 @@ setup(
     license='PSF',
     keywords=['django', 'Université de Strasbourg', 'sympa', 'mail', 'users'],
     include_package_data=True,
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Environment :: Web Environment',
+        'Framework :: Django :: 1.4',
+        'Framework :: Django :: 1.5'
+        'Framework :: Django :: 1.6'
+        'Framework :: Django :: 1.7',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
+        'Topic :: Communications :: Email :: Mailing List Servers'
+    ]
 )
