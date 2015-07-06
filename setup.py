@@ -29,7 +29,7 @@ libraries, dependency_links = [], []
 recursive_requirements('requirements.txt', libraries, dependency_links)
 
 setup(
-    name='sympa',
+    name='django-sympa',
     version='0.1',
     packages=find_packages(),
     install_requires=libraries,
