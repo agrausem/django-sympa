@@ -30,7 +30,7 @@ recursive_requirements('requirements.txt', libraries, dependency_links)
 
 setup(
     name='django-sympa',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=libraries,
     dependency_links=dependency_links,
@@ -49,8 +49,8 @@ setup(
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Framework :: Django :: 1.4',
-        'Framework :: Django :: 1.5'
-        'Framework :: Django :: 1.6'
+        'Framework :: Django :: 1.5',
+        'Framework :: Django :: 1.6',
         'Framework :: Django :: 1.7',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
